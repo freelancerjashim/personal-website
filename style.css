@@ -9,13 +9,13 @@ p{
     color: dimgray;
 }
 .red-highlight{
-    color: red;
+    color:tomato;
     font-size: 50px;
     font-weight: 900;
 }
 .link-button{
     text-decoration: none;
-    background-image:linear-gradient(  45deg, lightsalmon, tomato);
+    background-image:linear-gradient(  45deg,  #b76e79,#ff007f);
     padding: 10px 20px;
     color: white;
     border-radius: 5px;
@@ -24,5 +24,80 @@ p{
 .half-width{
     width: 40%;
     float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-top: 10%;
     
+}
+.half-width img{
+    width: 60%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+.biography-sec{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+  
+section{
+    height: 600px;
+    margin-bottom: 5%;
+}
+.third-width{
+    width: 30%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 1%;
+    margin-top: 3%;
+}
+.third-width img{
+    width: 95%;
+}
+#center{
+    text-align: center;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+.client-sec{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.big-button{
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-image: linear-gradient( 45deg, #b76e79,#ff007f );
+}
+
+
+
+
+footer{
+    text-align: center;
 }
